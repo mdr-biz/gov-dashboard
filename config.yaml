@@ -1,0 +1,88 @@
+# ============================================================
+#  만다린 정부지원사업 대시보드 설정
+#  이 파일만 수정하면 됩니다. 코드는 안 건드려도 됩니다.
+# ============================================================
+
+# 대시보드 제목
+dashboard_title: "만다린 정부지원사업 대시보드"
+
+# "새 공지"로 강조 표시할 기간 (일)
+highlight_days: 3
+
+# 아카이브에 보관할 최대 공지 수
+max_archive: 500
+
+# ============================================================
+#  사이트 목록
+#  enabled: false 로 두면 해당 사이트 잠시 끄기
+# ============================================================
+sources:
+  # ---------- Tier 1: 통합 어그리게이터 ----------
+  - id: bizinfo
+    name: 기업마당
+    tier: 1
+    enabled: true
+  - id: kstartup
+    name: K-Startup
+    tier: 1
+    enabled: true
+  - id: mss
+    name: 중소벤처기업부
+    tier: 1
+    enabled: true
+  # ---------- Tier 2: 로봇 핵심 ----------
+  - id: kiria
+    name: 한국로봇산업진흥원
+    tier: 2
+    enabled: true
+  - id: kar
+    name: 한국AI·로봇산업협회
+    tier: 2
+    enabled: true
+  - id: tipa
+    name: TIPA 중소기업기술정보진흥원
+    tier: 2
+    enabled: true
+  # ---------- Tier 3: 식품·외식·프랜차이즈 ----------
+  - id: foodpolis
+    name: 한국식품산업클러스터진흥원
+    tier: 3
+    enabled: true
+  - id: at
+    name: aT 한국농수산식품유통공사
+    tier: 3
+    enabled: true
+  - id: ikfa
+    name: 한국프랜차이즈산업협회
+    tier: 3
+    enabled: true
+  - id: foodservice
+    name: 한국외식업중앙회
+    tier: 3
+    enabled: true
+  # ---------- Tier 4: 지자체 ----------
+  - id: sba
+    name: SBA 서울경제진흥원
+    tier: 4
+    enabled: true
+  - id: gbsa
+    name: 경기도경제과학진흥원
+    tier: 4
+    enabled: true
+  - id: gepa
+    name: 경상북도경제진흥원
+    tier: 4
+    enabled: true
+  # ---------- Tier 5: 해외진출·벤처 ----------
+  - id: kiat
+    name: KIAT 한국산업기술진흥원
+    tier: 5
+    enabled: true
+  - id: kotra
+    name: KOTRA
+    tier: 5
+    enabled: true
+  - id: venture
+    name: 벤처기업협회
+    tier: 5
+    enabled: true
