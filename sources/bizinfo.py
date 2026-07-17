@@ -1,8 +1,9 @@
 """
-기업마당(BizInfo) 크롤러.
-공개 JSON API 사용 - 인증키 불필요.
-560여개 지원기관의 지원사업 공고를 한 번에 수집.
+기업마당(BizInfo) 크롤러 - 수정판.
+- 응답 키는 'jsonArray' (대문자 A)
+- crtfcKey(무료 API 인증키) 필요 → 환경변수 BIZINFO_KEY 로 주입
 """
+import os
 from typing import List
 from .base import BaseSource, Notice
 
@@ -16,22 +17,38 @@ class BizinfoSource(BaseSource):
 
     def fetch(self) -> List[Notice]:
         notices: List[Notice] = []
+
+        api_key = os.environ.get("BIZINFO_KEY", "").strip()
+        if not api_key:
+            print(f"[{self.source_id}] BIZINFO_KEY 환경변수 없음 - 건너뜀 "
+                  f"(무료 키 발급 후 GitHub Secrets에 등록하세요)")
+            return notices
+
         try:
-            # dataType=json 으로 요청하면 JSON 반환
-            params = {"dataType": "json"}
+            params = {
+                "crtfcKey": api_key,
+                "dataType": "json",
+                "searchCnt": "100",
+            }
             resp = self.session.get(self.API_URL, params=params, timeout=20)
             data = resp.json()
 
-            # 응답 구조: {"jsonarray": [ {...}, {...} ]}
-            items = data.get("jsonarray", [])
+            if isinstance(data, dict) and data.get("reqErr"):
+                print(f"[{self.source_id}] API 오류: {data.get('reqErr')}")
+                return notices
+
+            items = []
+            if isinstance(data, dict):
+                items = data.get("jsonArray", []) or data.get("jsonarray", [])
+            elif isinstance(data, list):
+                items = data
 
             for item in items:
-                title = item.get("pblancNm", "").strip()
+                title = (item.get("pblancNm") or "").strip()
                 if not title:
                     continue
 
-                # 상세 URL 조합
-                detail_url = item.get("pblancUrl", "")
+                detail_url = item.get("pblancUrl", "") or ""
                 if detail_url.startswith("/"):
                     url = "https://www.bizinfo.go.kr" + detail_url
                 elif detail_url.startswith("http"):
@@ -39,12 +56,8 @@ class BizinfoSource(BaseSource):
                 else:
                     url = "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do"
 
-                # 등록일 (creatPnttm 또는 regDt 형태)
-                posted = item.get("creatPnttm", "") or item.get("regDt", "")
-                posted = posted[:10] if posted else ""
-
-                # 분야를 카테고리로
-                category = item.get("pldirSportRealmLclasCodeNm", "") or "지원사업"
+                posted = (item.get("creatPnttm") or item.get("regDt") or "")[:10]
+                category = item.get("pldirSportRealmLclasCodeNm") or "지원사업"
 
                 notices.append(Notice(
                     source_id=self.source_id,

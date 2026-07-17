@@ -1,6 +1,5 @@
 """
-모든 사이트 크롤러의 기본 클래스.
-새 사이트 추가 시 이 클래스를 상속해 fetch()만 구현하면 됨.
+모든 데이터 소스의 기본 클래스와 Notice 데이터 구조.
 """
 from dataclasses import dataclass, asdict
 from typing import List
@@ -18,7 +17,7 @@ class Notice:
     category: str = ""
 
     def unique_id(self) -> str:
-        return f"{self.source_id}::{self.url}::{self.title}"
+        return f"{self.source_id}::{self.title}::{self.posted_date}"
 
     def to_dict(self):
         return asdict(self)
@@ -34,7 +33,8 @@ class BaseSource:
         self.session.headers.update({
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                           "AppleWebKit/537.36 (KHTML, like Gecko) "
-                          "Chrome/120.0.0.0 Safari/537.36"
+                          "Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "application/json",
         })
 
     def fetch(self) -> List[Notice]:
