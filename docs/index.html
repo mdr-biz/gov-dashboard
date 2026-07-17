@@ -63,10 +63,10 @@
 <body>
   <div class="header">
     <div class="header-inner">
-      <h1>🤖 (첫 실행 대기중) 만다린 정부지원사업 대시보드</h1>
+      <h1>🤖 만다린 정부지원사업 대시보드</h1>
       <div class="meta">
-        마지막 업데이트: 2026-07-16 15:13
-        <span class="badge">새 공지 3건</span>
+        마지막 업데이트: 2026-07-17 13:51
+        <span class="badge">새 공지 0건</span>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@
     </select>
     <select id="sourceFilter">
       <option value="">전체 사이트</option>
-      <option value="기업마당">기업마당</option><option value="한국로봇산업진흥원">한국로봇산업진흥원</option><option value="한국프랜차이즈산업협회">한국프랜차이즈산업협회</option>
+      
     </select>
     <select id="newFilter">
       <option value="">전체 기간</option>
@@ -100,8 +100,8 @@
   </div>
 
 <script>
-  const NOTICES = [{"source_id": "bizinfo", "source_name": "기업마당", "tier": 1, "title": "2026년 로봇활용 제조혁신 지원사업 공고", "url": "https://www.example.com/bizinfo", "posted_date": "2026-07-16", "category": "지원사업"}, {"source_id": "kiria", "source_name": "한국로봇산업진흥원", "tier": 2, "title": "시장창출형 로봇실증 보급사업 참여기업 모집", "url": "https://www.example.com/kiria", "posted_date": "2026-07-16", "category": "사업공고"}, {"source_id": "kiria", "source_name": "한국로봇산업진흥원", "tier": 2, "title": "2026 로봇산업 전문인력 양성사업", "url": "https://www.example.com/kiria", "posted_date": "2026-07-14", "category": "공지사항"}, {"source_id": "ikfa", "source_name": "한국프랜차이즈산업협회", "tier": 3, "title": "프랜차이즈 스마트기술 도입 지원사업", "url": "https://www.example.com/ikfa", "posted_date": "2026-07-11", "category": "공지사항"}];
-  const HIGHLIGHT_CUTOFF = "2026-07-13";
+  const NOTICES = [];
+  const HIGHLIGHT_CUTOFF = "2026-07-14";
   const TIER_COLORS = {"1": "#1F3864", "2": "#FF6A00", "3": "#ED7D31", "4": "#16a34a", "5": "#7c3aed"};
   const TIER_LABELS = {"1": "통합 어그리게이터", "2": "로봇 핵심", "3": "식품·외식·프랜차이즈", "4": "지자체", "5": "해외진출·벤처"};
 
