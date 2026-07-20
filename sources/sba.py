@@ -35,7 +35,6 @@ class SbaSource(BaseSource):
                     if not any(k in row_text for k in self.TYPE_KEYWORDS):
                         continue
 
-                    # 가장 긴 텍스트 셀을 제목으로 간주
                     best_cell = None
                     best_len = 0
                     for cell in cells:
@@ -50,13 +49,11 @@ class SbaSource(BaseSource):
                     if len(title) < 8:
                         continue
 
-                    # 날짜 추출
                     posted_date = ""
                     m = re.search(r"(\d{4})-(\d{2})-(\d{2})", row_text)
                     if m:
                         posted_date = m.group(0)
 
-                    # 유형 추출
                     category = "모집공고"
                     for k in self.TYPE_KEYWORDS:
                         if k in row_text:
@@ -74,7 +71,6 @@ class SbaSource(BaseSource):
                     ))
                     found_any = True
 
-            # 중복 제거 (같은 제목)
             seen_titles = set()
             unique = []
             for n in notices:
