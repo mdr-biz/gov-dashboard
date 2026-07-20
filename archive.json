@@ -2838,5 +2838,16 @@
     "category": "모집공고 (기업)",
     "date_basis": "",
     "_first_seen": "2026-07-20"
+  },
+  "kiria::실외이동로봇 운행안전인증 가이드북 배포 (2026년 7월 개정)": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "실외이동로봇 운행안전인증 가이드북 배포 (2026년 7월 개정)",
+    "url": "https://www.kiria.org/portal/info/portalInfoNotiList.do",
+    "posted_date": "2026-07-21",
+    "category": "공지사항",
+    "date_basis": "",
+    "_first_seen": "2026-07-20"
   }
 }
