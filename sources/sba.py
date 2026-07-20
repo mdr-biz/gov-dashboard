@@ -1,8 +1,8 @@
 """
-서울경제진흥원(SBA) 사업공고 크롤러.
-- URL: https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx
-- HTML 테이블 파싱. 상세 페이지는 JS 포스트백이라 목록 URL로 대체.
+서울경제진흥원(SBA) 사업공고 크롤러 - 개선판.
+표 구조를 더 유연하게 파싱.
 """
+import re
 from typing import List
 from bs4 import BeautifulSoup
 from .base import BaseSource, Notice
@@ -14,6 +14,8 @@ class SbaSource(BaseSource):
     tier = 4
     LIST_URL = "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx"
 
+    TYPE_KEYWORDS = ("기업", "개인", "단체", "예비창업")
+
     def fetch(self) -> List[Notice]:
         notices: List[Notice] = []
         try:
@@ -21,41 +23,44 @@ class SbaSource(BaseSource):
             resp.encoding = "utf-8"
             soup = BeautifulSoup(resp.text, "html.parser")
 
-            # 테이블에서 사업명 셀 찾기
-            # SBA 페이지는 GridView1이라는 asp.net 테이블 사용
-            tables = soup.find_all("table")
-            for table in tables:
+            found_any = False
+            for table in soup.find_all("table"):
                 rows = table.find_all("tr")
                 for row in rows:
                     cells = row.find_all("td")
-                    if len(cells) < 3:
+                    if len(cells) < 2:
                         continue
 
-                    # 유형 (기업/개인 등) 확인 - 첫 셀
-                    type_text = cells[0].get_text(strip=True)
-                    if type_text not in ("기업", "개인", "기업+개인", "단체"):
+                    row_text = row.get_text(" ", strip=True)
+                    if not any(k in row_text for k in self.TYPE_KEYWORDS):
                         continue
 
-                    # 사업명 셀 (보통 2번째 셀)
-                    title_cell = cells[1]
-                    title_link = title_cell.find("a")
-                    if title_link:
-                        title = title_link.get_text(strip=True)
-                    else:
-                        title = title_cell.get_text(strip=True).split("\n")[0].strip()
-
-                    if not title or len(title) < 5:
+                    # 가장 긴 텍스트 셀을 제목으로 간주
+                    best_cell = None
+                    best_len = 0
+                    for cell in cells:
+                        t = cell.get_text(strip=True)
+                        if len(t) > best_len and len(t) < 200:
+                            best_len = len(t)
+                            best_cell = cell
+                    if best_cell is None or best_len < 8:
                         continue
 
-                    # 접수 시작일/종료일 (마지막 셀 근처)
+                    title = best_cell.get_text(" ", strip=True).split("\n")[0].strip()
+                    if len(title) < 8:
+                        continue
+
+                    # 날짜 추출
                     posted_date = ""
-                    for cell in cells[2:]:
-                        text = cell.get_text(strip=True)
-                        # 날짜 패턴 (YYYY-MM-DD)
-                        import re
-                        m = re.search(r"(\d{4})-(\d{2})-(\d{2})", text)
-                        if m:
-                            posted_date = m.group(0)
+                    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", row_text)
+                    if m:
+                        posted_date = m.group(0)
+
+                    # 유형 추출
+                    category = "모집공고"
+                    for k in self.TYPE_KEYWORDS:
+                        if k in row_text:
+                            category = f"모집공고 ({k})"
                             break
 
                     notices.append(Notice(
@@ -63,13 +68,23 @@ class SbaSource(BaseSource):
                         source_name=self.source_name,
                         tier=self.tier,
                         title=title,
-                        url=self.LIST_URL,   # 상세 URL이 JS라 목록으로 대체
+                        url=self.LIST_URL,
                         posted_date=posted_date,
-                        category=f"모집공고 ({type_text})",
+                        category=category,
                     ))
+                    found_any = True
 
-            if not notices:
-                print(f"[{self.source_id}] 공고 표를 찾지 못함")
+            # 중복 제거 (같은 제목)
+            seen_titles = set()
+            unique = []
+            for n in notices:
+                if n.title not in seen_titles:
+                    seen_titles.add(n.title)
+                    unique.append(n)
+            notices = unique
+
+            if not found_any:
+                print(f"[{self.source_id}] 표에서 공고를 찾지 못함 - 사이트 구조 변경 가능성")
         except Exception as e:
             print(f"[{self.source_id}] 수집 실패: {e}")
         return notices
