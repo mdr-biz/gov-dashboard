@@ -20,6 +20,28 @@
     "date_basis": "",
     "_first_seen": "2026-07-20"
   },
+  "kiria::가정용 청소 로봇 자율주행·도달률 평가 시스템 구축": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "가정용 청소 로봇 자율주행·도달률 평가 시스템 구축",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-08-10",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-08-10"
+  },
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 청년취업사관학교 강북캠퍼스 교육파트너 모집 (개인형) 담당부서 : 교육3팀 담당자 : 권명희 전화번호 : 02-6224-3501": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 청년취업사관학교 강북캠퍼스 교육파트너 모집 (개인형) 담당부서 : 교육3팀 담당자 : 권명희 전화번호 : 02-6224-3501",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-08-10",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-08-10"
+  },
   "bizinfo::2026년 창업진흥원 대전 팁스타운 일본 파트너 초청 상담회 참가기업 모집 공고": {
     "source_id": "bizinfo",
     "source_name": "기업마당",
@@ -5471,28 +5493,6 @@
     "tier": 1,
     "title": "2026년 하반기 K-푸드+ 바이어초청 수출상담회(BKF+) 참가 수출기업 모집 공고",
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124744",
-    "posted_date": "2026-07-27",
-    "category": "수출",
-    "date_basis": "",
-    "_first_seen": "2026-07-27"
-  },
-  "bizinfo::2026년 방산 특화 창업중심대학 창업기업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 방산 특화 창업중심대학 창업기업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124743",
-    "posted_date": "2026-07-27",
-    "category": "창업",
-    "date_basis": "",
-    "_first_seen": "2026-07-27"
-  },
-  "bizinfo::2026년 독일 국제 아이디어ㆍ발명ㆍ신제품  전시회 참가모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 독일 국제 아이디어ㆍ발명ㆍ신제품  전시회 참가모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124742",
     "posted_date": "2026-07-27",
     "category": "수출",
     "date_basis": "",
