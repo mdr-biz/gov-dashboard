@@ -1,4 +1,48 @@
 {
+  "kiria::한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사",
+    "url": "https://www.kiria.org/portal/info/portalInfoBusinessList.do",
+    "posted_date": "2026-09-07",
+    "category": "사업공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-08"
+  },
+  "kiria::가정용 청소 로봇 자율주행·도달률 평가 시스템 구축 취소공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "가정용 청소 로봇 자율주행·도달률 평가 시스템 구축 취소공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-07",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-08"
+  },
+  "kiria::보행형 로봇 산업 동향 조사 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "보행형 로봇 산업 동향 조사 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-07",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-08"
+  },
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2027년 SETEC 전시회 잔여일정 대관 모집 공고 담당부서 : SETEC운영팀 담당자 : 박하얀 전화번호 : 02-2187-4605": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2027년 SETEC 전시회 잔여일정 대관 모집 공고 담당부서 : SETEC운영팀 담당자 : 박하얀 전화번호 : 02-2187-4605",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-09-07",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-09-08"
+  },
   "kiria::실외이동로봇 운행안전인증 제품 인증서 반납 공표  (KIRIA-01-24-003-01, 에이알247(주) - 실외 배송 로봇)": {
     "source_id": "kiria",
     "source_name": "한국로봇산업진흥원",
@@ -5454,49 +5498,5 @@
     "category": "기술",
     "date_basis": "",
     "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[전남광주] 2026년 2차 우수 소상공인 기획전 참여 업체 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[전남광주] 2026년 2차 우수 소상공인 기획전 참여 업체 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125699",
-    "posted_date": "2026-08-24",
-    "category": "내수",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[전북] 2026년 전북지역기술혁신허브 맞춤형 기술지원 참여기업 모집 상시 통합 공고(전북지역기술혁신허브 비R&D 지원사업)": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[전북] 2026년 전북지역기술혁신허브 맞춤형 기술지원 참여기업 모집 상시 통합 공고(전북지역기술혁신허브 비R&D 지원사업)",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125698",
-    "posted_date": "2026-08-24",
-    "category": "기술",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::2026년 시설농업 AI로봇 실증기반 구축사업 시험ㆍ평가ㆍ인증 지원 프로그램 참여기업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 시설농업 AI로봇 실증기반 구축사업 시험ㆍ평가ㆍ인증 지원 프로그램 참여기업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125697",
-    "posted_date": "2026-08-24",
-    "category": "기술",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::2026년 예비오션스타 기업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 예비오션스타 기업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125696",
-    "posted_date": "2026-08-21",
-    "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-08-21"
   }
 }
