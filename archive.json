@@ -1,4 +1,48 @@
 {
+  "kiria::실외이동로봇 운행안전인증 제품 공표 (KIRIA-01-24-012-05, (주)뉴빌리티 - 두루아이)": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "실외이동로봇 운행안전인증 제품 공표 (KIRIA-01-24-012-05, (주)뉴빌리티 - 두루아이)",
+    "url": "https://www.kiria.org/portal/info/portalInfoNotiList.do",
+    "posted_date": "2026-09-10",
+    "category": "공지사항",
+    "date_basis": "",
+    "_first_seen": "2026-09-10"
+  },
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026 서울게임콘텐츠센터 게임스튜디오 신규 입주기업 모집 담당부서 : 게임팀 담당자 : 임송율 전화번호 : 02-2124-2904": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026 서울게임콘텐츠센터 게임스튜디오 신규 입주기업 모집 담당부서 : 게임팀 담당자 : 임송율 전화번호 : 02-2124-2904",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-09-10",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-09-10"
+  },
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026년 튀르키예 이스탄불 식품 박람회 참여기업 모집 담당부서 : 글로벌마케팅팀 담당자 : 엄규민 전화번호 : 02-2657-5724": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026년 튀르키예 이스탄불 식품 박람회 참여기업 모집 담당부서 : 글로벌마케팅팀 담당자 : 엄규민 전화번호 : 02-2657-5724",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-09-09",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-09-10"
+  },
+  "kiria::KIRIA 인사이트 정기 세미나 운영 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "KIRIA 인사이트 정기 세미나 운영 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-08",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-10"
+  },
   "kiria::한국로봇산업진흥원 2026 로보월드 K-로봇 공공프리마켓(가칭) 참여기업 모집 수요조사": {
     "source_id": "kiria",
     "source_name": "한국로봇산업진흥원",
@@ -5450,50 +5494,6 @@
     "tier": 1,
     "title": "[경기] 동부거점 2026년 3차 중소기업 개발생산판로 맞춤형 지원사업 통합 공고",
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125704",
-    "posted_date": "2026-08-24",
-    "category": "기술",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[전북] 2026년 우수상품 전주국제발효식품엑스포 단체관 참가지원 참여기업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[전북] 2026년 우수상품 전주국제발효식품엑스포 단체관 참가지원 참여기업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125703",
-    "posted_date": "2026-08-24",
-    "category": "내수",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[경북] 2026년 우수 수산물 육성사업 대만 해외시장개척단 참가기업 추가 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[경북] 2026년 우수 수산물 육성사업 대만 해외시장개척단 참가기업 추가 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125702",
-    "posted_date": "2026-08-24",
-    "category": "수출",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[울산] 2026년 중장년 활력UP 일자리사업 참여기관 추가 모집 연장 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[울산] 2026년 중장년 활력UP 일자리사업 참여기관 추가 모집 연장 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125701",
-    "posted_date": "2026-08-24",
-    "category": "인력",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[전남광주] 보성군 2026년 3차 새싹 키움터 사업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[전남광주] 보성군 2026년 3차 새싹 키움터 사업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125700",
     "posted_date": "2026-08-24",
     "category": "기술",
     "date_basis": "",
