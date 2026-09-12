@@ -1,4 +1,26 @@
 {
+  "kiria::휴머노이드 플랫폼 검증기준 마련 연구용역 재공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "휴머노이드 플랫폼 검증기준 마련 연구용역 재공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-11",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-12"
+  },
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026 홍콩 메가쇼(Mega Show Hong Kong 20206) 참가기업 모집 담당부서 : 글로벌마케팅팀 담당자 : 김한주 전화번호 : 02-2657-5816": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026 홍콩 메가쇼(Mega Show Hong Kong 20206) 참가기업 모집 담당부서 : 글로벌마케팅팀 담당자 : 김한주 전화번호 : 02-2657-5816",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-09-11",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-09-12"
+  },
   "kiria::실외이동로봇 운행안전인증 제품 공표 (KIRIA-01-24-012-05, (주)뉴빌리티 - 두루아이)": {
     "source_id": "kiria",
     "source_name": "한국로봇산업진흥원",
@@ -5474,28 +5496,6 @@
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125706",
     "posted_date": "2026-08-24",
     "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[충북] 2026년 2차 중소기업육성자금 융자(이차보전) 지원계획 변경 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[충북] 2026년 2차 중소기업육성자금 융자(이차보전) 지원계획 변경 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125705",
-    "posted_date": "2026-08-24",
-    "category": "금융",
-    "date_basis": "",
-    "_first_seen": "2026-08-24"
-  },
-  "bizinfo::[경기] 동부거점 2026년 3차 중소기업 개발생산판로 맞춤형 지원사업 통합 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[경기] 동부거점 2026년 3차 중소기업 개발생산판로 맞춤형 지원사업 통합 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125704",
-    "posted_date": "2026-08-24",
-    "category": "기술",
     "date_basis": "",
     "_first_seen": "2026-08-24"
   }
