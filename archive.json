@@ -1,4 +1,48 @@
 {
+  "kiria::SDR 이기종 로봇 통합 서비스 플랫폼관 구축·운영 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "SDR 이기종 로봇 통합 서비스 플랫폼관 구축·운영 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-17",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-18"
+  },
+  "kiria::2026년 로봇 공공수요 발굴단 운영 및 과제 기획 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "2026년 로봇 공공수요 발굴단 운영 및 과제 기획 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-17",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-18"
+  },
+  "kiria::제조로봇-정보보호 매뉴얼 개발을 위한 연구 분석 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "제조로봇-정보보호 매뉴얼 개발을 위한 연구 분석 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-09-17",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-09-18"
+  },
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026년도 서울시 뿌리기업 산업박람회 참여기업 모집 담당부서 : 뿌리기업육성팀 담당자 : 배엄지 전화번호 : 02-6342-4632": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업 2026년도 서울시 뿌리기업 산업박람회 참여기업 모집 담당부서 : 뿌리기업육성팀 담당자 : 배엄지 전화번호 : 02-6342-4632",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-09-17",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-09-18"
+  },
   "bizinfo::[전북] 군산시 2026년 4차 우수농산물 공동상표 포장재 디자인 지원사업 신청 공고": {
     "source_id": "bizinfo",
     "source_name": "기업마당",
@@ -5452,50 +5496,6 @@
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125902",
     "posted_date": "2026-08-28",
     "category": "기술",
-    "date_basis": "",
-    "_first_seen": "2026-08-29"
-  },
-  "bizinfo::[세종] 2026년 지역특화콘텐츠개발지원 사업 공고 (웹툰콘텐츠분야)": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[세종] 2026년 지역특화콘텐츠개발지원 사업 공고 (웹툰콘텐츠분야)",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125901",
-    "posted_date": "2026-08-28",
-    "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-08-29"
-  },
-  "bizinfo::[경기] 안산시 2026년 특화역량 BI 육성지원사업 ICTㆍSW 창업기업 사업화 지원사업 참여기업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[경기] 안산시 2026년 특화역량 BI 육성지원사업 ICTㆍSW 창업기업 사업화 지원사업 참여기업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125900",
-    "posted_date": "2026-08-28",
-    "category": "창업",
-    "date_basis": "",
-    "_first_seen": "2026-08-29"
-  },
-  "bizinfo::[충북] 2026년 2차 에너지특화기업 사업화 지원사업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[충북] 2026년 2차 에너지특화기업 사업화 지원사업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125899",
-    "posted_date": "2026-08-28",
-    "category": "기술",
-    "date_basis": "",
-    "_first_seen": "2026-08-29"
-  },
-  "bizinfo::[경기] 2026년 기술보호 전문교육 및 산업보안 컨설팅 지원 참여기업(기관) 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[경기] 2026년 기술보호 전문교육 및 산업보안 컨설팅 지원 참여기업(기관) 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125898",
-    "posted_date": "2026-08-28",
-    "category": "경영",
     "date_basis": "",
     "_first_seen": "2026-08-29"
   }
