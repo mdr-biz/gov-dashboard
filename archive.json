@@ -1,4 +1,15 @@
 {
+  "sba::유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업+개인 2026 서울게임콘텐츠센터 게임랩 신규 입주기업 모집 담당부서 : 게임팀 담당자 : 강지훈 전화번호 : 02-2124-2907": {
+    "source_id": "sba",
+    "source_name": "SBA 서울경제진흥원",
+    "tier": 4,
+    "title": "유형/사업명(사업명, 담당부서, 담당자, 전화번호) 표시 테이블 유형 : 기업+개인 2026 서울게임콘텐츠센터 게임랩 신규 입주기업 모집 담당부서 : 게임팀 담당자 : 강지훈 전화번호 : 02-2124-2907",
+    "url": "https://www.sba.seoul.kr/Pages/BusinessApply/OngoingList.aspx",
+    "posted_date": "2026-10-23",
+    "category": "모집공고 (기업)",
+    "date_basis": "",
+    "_first_seen": "2026-10-23"
+  },
   "kiria::2027년 로봇 플래그쉽 지역거점 구축사업 신규과제 수요조사 공고": {
     "source_id": "kiria",
     "source_name": "한국로봇산업진흥원",
@@ -5485,17 +5496,6 @@
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126880",
     "posted_date": "2026-09-30",
     "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-10-01"
-  },
-  "bizinfo::2026년 예술경영지원센터 예술산업보증 10월(7차) 공모": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 예술경영지원센터 예술산업보증 10월(7차) 공모",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126879",
-    "posted_date": "2026-09-30",
-    "category": "금융",
     "date_basis": "",
     "_first_seen": "2026-10-01"
   }
