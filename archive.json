@@ -10,6 +10,39 @@
     "date_basis": "",
     "_first_seen": "2026-10-23"
   },
+  "kiria::CES2027 KOREA-M.AX Alliance 공동관 운영 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "CES2027 KOREA-M.AX Alliance 공동관 운영 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-10-23",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-10-24"
+  },
+  "kiria::로봇직업교육센터 디지털트윈 기반 모듈형 교육 콘텐츠 기획 및 설계 용역 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "로봇직업교육센터 디지털트윈 기반 모듈형 교육 콘텐츠 기획 및 설계 용역 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-10-23",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-10-24"
+  },
+  "kiria::로봇 서비스 가상환경 구현 설계 장비 구매": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "로봇 서비스 가상환경 구현 설계 장비 구매",
+    "url": "https://www.kiria.org/portal/info/portalInfoTenderList.do",
+    "posted_date": "2026-10-23",
+    "category": "입찰공고",
+    "date_basis": "",
+    "_first_seen": "2026-10-24"
+  },
   "kiria::2027년 로봇 플래그쉽 지역거점 구축사업 신규과제 수요조사 공고": {
     "source_id": "kiria",
     "source_name": "한국로봇산업진흥원",
@@ -5461,39 +5494,6 @@
     "tier": 1,
     "title": "[세종] 2026년 지역기업 성장사다리 지원사업 연계 성장브릿지(투자유치 지원 프로그램) 수요기업 모집 공고",
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126883",
-    "posted_date": "2026-09-30",
-    "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-10-01"
-  },
-  "bizinfo::[경북] 2026년 YUnicorn 시제품 제작 및 사업화 지원 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[경북] 2026년 YUnicorn 시제품 제작 및 사업화 지원 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126882",
-    "posted_date": "2026-09-30",
-    "category": "창업",
-    "date_basis": "",
-    "_first_seen": "2026-10-01"
-  },
-  "bizinfo::2026년 4차 방산 중소기업 컨설팅 지원사업 지원대상기업 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 4차 방산 중소기업 컨설팅 지원사업 지원대상기업 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126881",
-    "posted_date": "2026-09-30",
-    "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-10-01"
-  },
-  "bizinfo::[경기] 부천시 2026년 수출 유공 및 ESG 경영 유공 포상 후보자 모집 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "[경기] 부천시 2026년 수출 유공 및 ESG 경영 유공 포상 후보자 모집 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126880",
     "posted_date": "2026-09-30",
     "category": "경영",
     "date_basis": "",
