@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add docs/index.html archive.json
+          git add docs/index.html archive.json recent.json
           git diff --staged --quiet || git commit -m "Auto update dashboard"
           git push
