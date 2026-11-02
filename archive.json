@@ -1,4 +1,15 @@
 {
+  "kiria::2026년 한국로봇산업진흥원 연구장비 임대 운영 기업 모집 공고": {
+    "source_id": "kiria",
+    "source_name": "한국로봇산업진흥원",
+    "tier": 2,
+    "title": "2026년 한국로봇산업진흥원 연구장비 임대 운영 기업 모집 공고",
+    "url": "https://www.kiria.org/portal/info/portalInfoBusinessList.do",
+    "posted_date": "2026-11-02",
+    "category": "사업공고",
+    "date_basis": "",
+    "_first_seen": "2026-11-02"
+  },
   "bizinfo::[서울] 2026년 키친인큐베이터 개별ㆍ공유주방 25기 및 제조주방 13기 통합모집 공고": {
     "source_id": "bizinfo",
     "source_name": "기업마당",
@@ -5483,17 +5494,6 @@
     "tier": 1,
     "title": "[경기] 북부권역(구리시ㆍ동두천시) 2026년 3차 중소기업 제품디자인개발 지원사업 참여기업 모집 공고(디자인개발)",
     "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127095",
-    "posted_date": "2026-10-12",
-    "category": "경영",
-    "date_basis": "",
-    "_first_seen": "2026-10-13"
-  },
-  "bizinfo::2026년 납품대금 연동 우수기업 포상 수정 공고": {
-    "source_id": "bizinfo",
-    "source_name": "기업마당",
-    "tier": 1,
-    "title": "2026년 납품대금 연동 우수기업 포상 수정 공고",
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127093",
     "posted_date": "2026-10-12",
     "category": "경영",
     "date_basis": "",
